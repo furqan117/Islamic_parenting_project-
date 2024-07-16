@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import Header from './Components/Header'
+import Header from './pages/Header'
 import Home from './pages/Home'
+import ParentingPrinciples from './pages/ParentingPrinciples'
 function App() {
   
 
@@ -8,7 +9,8 @@ function App() {
    <div className=" bg-white">
     
       <Header/>
-    <Home/>   
+    <Home/> 
+    <ParentingPrinciples/>  
    </div>
      
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-import img from'../assets/home.jpg'
+import img from'../assets/pare.jpeg'
 export default function Hpage() {
   return (
     <div className=' flex items-center mx-[2rem] mt-[4rem]    '>
@@ -14,7 +14,7 @@ export default function Hpage() {
         </div>
 
         <div className="   ">
-<img className=' ml-[6rem]  ' src={img} alt="" />
+<img className=' ml-[1rem]  ' src={img} alt="" />
         </div>
       
     </div>

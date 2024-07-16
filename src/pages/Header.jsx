@@ -4,7 +4,7 @@ import{Link} from'react-router-dom'
 export default function Header() {
   return (
     <div className=' flex justify-between mx-[3rem] items-center mt-[1rem]  '>
-        <h1 className=' text-[2rem]  '>Al-Hikmah</h1>
+        <h1 className=' text-[2rem]  '>Al-Hikma</h1>
         <div className=" flex items-center space-x-5">
          {/* <Link to="/">Home</Link>
          <Link to="/principles">ParentingPrinciples</Link>
