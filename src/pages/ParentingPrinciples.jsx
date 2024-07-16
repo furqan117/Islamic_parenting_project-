@@ -1,5 +1,5 @@
 import React from 'react'
-//import lec from'../assets/lecture.jpg'
+import lec from'../assets/lecture.jpg'
 export default function ParentingPrinciples() {
   return (
     <div className=' mt-[4rem]  '>
@@ -15,7 +15,7 @@ export default function ParentingPrinciples() {
         </div>
 
         <div className="">
-   
+   <img src={lec} alt="" />
         </div>
       </div>
       <h1 className=' text-[2rem] font-semibold ml-[7.7rem] '>Islam Core Values</h1>
