@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily:{
+      Far:["Poppins","sans-serif"]
+    }
   },
   plugins: [],
 }

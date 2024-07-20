@@ -1,23 +1,36 @@
 import { useState } from 'react'
-import Header from './pages/Header'
-import Home from './pages/Home'
-import ParentingPrinciples from './pages/ParentingPrinciples'
-import ParentingStages from './pages/Parenting Stages'
-import Blog from './pages/Blog'
-import AboutUs from './pages/AboutUs'
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
+import Header from './Components/Header'
+
+
 import Footer from './Components/Foter'
+import Hpage from './pages/Hpage'
+import ParentingPrinciples from './Components/ParentingPrinciples'
+import Principles from './pages/Principles'
+import Stages from './pages/Stages'
+import Updates from './pages/Updates'
+import AboutUs from './Components/AboutUs'
 function App() {
   
 
   return (
    <div className=" bg-white">
     
-      <Header/>
-    <Home/> 
-    <ParentingPrinciples/> 
-         <ParentingStages/>
-    <Blog/>
-    <AboutUs/>
+     
+      
+     <Router>
+       <Header/>
+      <Routes>
+        <Route path='/' element={<Hpage/>} />
+       < Route path='principles' element={<Principles/>} />
+
+        < Route path='Stages' element={<Stages/>} />
+        < Route path='blog' element={<Updates/>} />
+        < Route path='about' element={<AboutUs/>} />
+
+      </Routes>
+     </Router>
+  
     <Footer/>
 
    </div>
