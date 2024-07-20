@@ -1,5 +1,6 @@
 import React from 'react'
 import{Link} from'react-router-dom'
+import Footer from '../Components/Foter'
 
 export default function Header() {
   return (
@@ -22,6 +23,7 @@ export default function Header() {
             <button className='border-2  border-[#50C878] py-2 px-5 text-black font-semibold rounded-md'>Login</button>
             <button className=' bg-[#50C878]  py-2 px-5 border-2 border-[#50C878] text-white font-semibold rounded-md'>Signup</button>
         </div>
+        <Footer/>
     </div>
   )
 }
