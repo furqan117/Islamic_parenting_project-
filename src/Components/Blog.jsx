@@ -37,7 +37,7 @@ export default function Blog() {
             <div className=" w-[500px] h-[520px] rounded-md border-2 border-gray-300
              bg-white shadow-lg ">
                 <img className='w-[500px] h-[330px]  ' src={event} alt="" />
-              <div className=" space-y-4 px-4">
+              <div className=" space-y-2 px-4">
                 <h1 className='text-[1.5rem] font-Far pt-2'>Celebrating Eid</h1>
                 <p className='  text-gray-600 '>Eid is one of the most significant 
                   and joyous festivals in the Islamic calendar, celebrated by Muslims 
