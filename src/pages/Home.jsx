@@ -18,7 +18,7 @@ export default function Hpage() {
 <img className=' ml-[1rem]  ' src={img} alt="" />
         </div>
      
-      
+ 
     </div>
     
   )
