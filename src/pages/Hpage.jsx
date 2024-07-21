@@ -4,6 +4,7 @@ import ParentingStages from '../Components/ParentingStages'
 import ParentingPrinciples from '../Components/ParentingPrinciples'
 import Blog from '../Components/Blog'
 import About from '../Components/AboutUs'
+import LoginForm from '../Components/LoginForm'
 export default function Hpage() {
   return (
     <div>
@@ -12,6 +13,7 @@ export default function Hpage() {
         <ParentingStages/>
         <Blog/>
         <About/>
+        <LoginForm/>
     </div>
   )
 }
