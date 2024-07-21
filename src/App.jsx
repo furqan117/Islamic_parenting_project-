@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 import Header from './Components/Header'
-import LoginForm from './Components/LoginForm'
 
 import Login from './Components/LoginForm'
 import Footer from './Components/Foter'
@@ -11,6 +10,7 @@ import Principles from './pages/Principles'
 import Stages from './pages/Stages'
 import Updates from './pages/Updates'
 import AboutUs from './Components/AboutUs'
+import LoginForm from './Components/LoginForm'
 function App() {
   
 
@@ -22,14 +22,12 @@ function App() {
      <Router>
        <Header/>
       <Routes>
-          < Route path='login' element={<LoginForm/>} />
         <Route path='/' element={<Hpage/>} />
        < Route path='principles' element={<Principles/>} />
-
+         <Route path='login' element={<LoginForm/>}/>
         < Route path='Stages' element={<Stages/>} />
         < Route path='blog' element={<Updates/>} />
         < Route path='about' element={<AboutUs/>} />
-      
 
       </Routes>
      </Router>
