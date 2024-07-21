@@ -17,8 +17,7 @@ export default function Header() {
           py-2 px-2 rounded-md hover:text-white  ' to="/blog">Blog</Link>
          <Link className='list-none text-[1.1rem] font-semibold hover:bg-[#50C878]
           py-2 px-2 rounded-md hover:text-white  ' to="/about">About Us</Link>
-         <Link className='list-none text-[1.1rem] font-semibold hover:bg-[#50C878]
-         py-2 px-2 rounded-md hover:text-white  ' to="/login">Login</Link>
+        
 
         </div>
        

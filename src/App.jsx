@@ -1,8 +1,7 @@
 import { useState } from 'react'
-import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './Components/Header'
 
-import Login from './Components/LoginForm'
 import Footer from './Components/Foter'
 import Hpage from './pages/Hpage'
 import ParentingPrinciples from './Components/ParentingPrinciples'
@@ -10,32 +9,25 @@ import Principles from './pages/Principles'
 import Stages from './pages/Stages'
 import Updates from './pages/Updates'
 import AboutUs from './Components/AboutUs'
-import LoginForm from './Components/LoginForm'
+
+
 function App() {
-  
-
   return (
-   <div className=" bg-white">
-    
-     
-      
-     <Router>
-       <Header/>
-      <Routes>
-        <Route path='/' element={<Hpage/>} />
-       < Route path='principles' element={<Principles/>} />
-         <Route path='login' element={<LoginForm/>}/>
-        < Route path='Stages' element={<Stages/>} />
-        < Route path='blog' element={<Updates/>} />
-        < Route path='about' element={<AboutUs/>} />
+    <div className="bg-white">
+      {/* Setting up Router for navigation */}
+      <Router>
+      <Header/>
+        <Routes>
+          <Route path='/' element={<Hpage/>} />  {/* Route for homepage */}
+          <Route path='principles' element={<Principles/>} />  {/* Route for principles page */}
 
-      </Routes>
-     </Router>
-  
-    <Footer/>
-
-   </div>
-     
+          <Route path='Stages' element={<Stages/>} />  {/* Route for stages page */}
+          <Route path='blog' element={<Updates/>} />  {/* Route for blog/updates page */}
+          <Route path='about' element={<AboutUs/>} />  {/* Route for about us page */}
+        </Routes>
+      </Router>
+      <Footer/>
+    </div>
   )
 }
 

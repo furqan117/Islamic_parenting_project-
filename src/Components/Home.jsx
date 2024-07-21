@@ -1,9 +1,10 @@
 import React from 'react'
 import img from'../assets/pare.jpeg'
+import Hpage from '../pages/Hpage'
+import Header from './Header'
 export default function Home() {
   return (
     <div className=' flex items-center mx-[2rem] mt-[4rem]    '>
-
         <div className=" ml-[3rem] space-y-4 ">
             <h1 className=' text-[2.5rem] font-semibold font-Far '>Nurturing the  
                 <span className=' text-[#50C878] '> Next Generation</span> with Islamic Values</h1>
